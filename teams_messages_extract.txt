@@ -1,0 +1,475 @@
+===ITEM===
+Received: 2026-05-21 20:35:39
+Topic: Looking for Bosch SW Development Requirements & Guardrails for AI-based Code Compliance Initiative
+From: Santos Aezio (RBLA/MIT1)
+Folder: \\Andreas.Bossert2@de.bosch.com\Gelöschte Elemente
+Link: https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779388467180?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779388467180&parentMessageId=1779388467180
+Body:
+New Teams message in General
+
+Subject: Looking for Bosch SW Development Requirements & Guardrails for AI-based Code Compliance Initiative
+From: Santos Aezio (RBLA/MIT1)
+
+Hello everyone,
+
+  
+
+I am currently structuring an AI-driven initiative focused on supporting secure and compliant software development within Bosch, and I would appreciate your support in identifying the official references, processes, standards, and guardrails applicable to software engineering. 
+
+The initiative is being designed around two complementary capabilities: 
+
+
+ 
+
+
+1. AI Skill/Agent for Existing Code Assessment
+
+An AI capability able to: 
+
+*	Analyze existing source code;
+*	Evaluate compliance against Bosch standards, policies, and guardrails;
+*	Identify gaps related to security, architecture, compliance, quality, and best practices;
+*	Generate remediation recommendations;
+*	Potentially support automated refactoring/rewrite to align the code with Bosch expectations.
+
+
+2. AI Skill/Agent for Engineering Code / Vibe Coding
+
+An AI capability to: 
+
+*	Support developers in generating code that is already compliant by design;
+*	Embed Bosch requirements for security, architecture, quality, documentation, and compliance directly into code generation;
+*	Act as an intelligent guardrail during software development activities.
+
+To move forward, I am trying to consolidate all official requirements and governance references currently used within Bosch for software development. 
+
+I would like to ask whether anyone knows where I could find documentation, standards, or owners related to topics such as: 
+
+*	Secure Software Development Lifecycle (SSDLC);
+*	Secure Coding Guidelines;
+*	Product Security;
+*	IT Security Requirements;
+*	Cloud / DevOps / CI-CD Security;
+*	API and Integration Security;
+*	Open Source Compliance;
+*	Architecture standards and governance;
+*	Cybersecurity standards;
+*	AI / GenAI guardrails;
+*	Embedded software / IoT security requirements;
+*	Quality Gates;
+*	OWASP-based or equivalent internal frameworks;
+*	Mandatory review/approval processes;
+*	Official static/dynamic analysis tools;
+*	AI usage guidelines for software development;
+*	Templates, checklists, or corporate policies.
+
+I would also appreciate insights regarding: 
+
+*	Which teams/functions own these requirements today;
+*	Whether similar initiatives already exist internally;
+*	Any formal restrictions regarding AI usage for code analysis or generation;
+*	Main risks or critical considerations from your perspective.
+
+The objective is to build something technically robust, compliant with Bosch policies, and scalable enough to support productivity, software quality, and risk reduction across development activities. 
+
+  
+
+Any pointers to documentation, SharePoint pages, internal repositories, governance teams, or technical contacts would be highly appreciated. 
+
+Thank you in advance for your support. 
+
+
+
+View message in Teams <https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779388467180?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779388467180&parentMessageId=1779388467180>  
+
+===END===
+===ITEM===
+Received: 2026-05-22 07:52:11
+Topic: The State of Code Abundance 2026
+From: Creutz Stephan (XC-AS/EVT1)
+Folder: \\Andreas.Bossert2@de.bosch.com\Gelöschte Elemente
+Link: https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779429086348?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779429086348&parentMessageId=1779429086348
+Body:
+New Teams message in General
+
+Subject: The State of Code Abundance 2026
+From: Creutz Stephan (XC-AS/EVT1)
+
+https://cdn.prod.website-files.com/695e1939655d6c0175b126da/6a0c64840b47f1d67e10b6b9_36ddc65c9fc7cd… <https://cdn.prod.website-files.com/695e1939655d6c0175b126da/6a0c64840b47f1d67e10b6b9_36ddc65c9fc7cde46cdc7179df6b7504_The_State_of_Code_Abundance_Report_2026.pdf> 
+
+
+
+View message in Teams <https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779429086348?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779429086348&parentMessageId=1779429086348>  
+
+===END===
+===ITEM===
+Received: 2026-05-22 15:38:18
+Topic: RTK anyone?
+From: Kapelner Tamas (CR/APC4)
+Folder: \\Andreas.Bossert2@de.bosch.com\Gelöschte Elemente
+Link: https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779457001366?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779457001366&parentMessageId=1779457001366
+Body:
+New Teams message in General
+
+Subject: RTK anyone?
+From: Kapelner Tamas (CR/APC4)
+
+With the copilot costs increasing next month, I would like to try RTK <https://github.com/rtk-ai> , but I am not sure if I am even allowed to install it due to security reasons (not that it seems fishy, I just have no clue about such things). So my questions:
+
+*	does anybody have experience with it?
+*	are we allowed to install it on a Bosch system?
+*	if not, what is the process I should start, e.g. do I try to add it to the CSC <https://www4.intranet.bosch.com/app/csc/csc/> ?
+
+
+
+View message in Teams <https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779457001366?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779457001366&parentMessageId=1779457001366>  
+
+===END===
+===ITEM===
+Received: 2026-05-25 10:36:20
+Topic: Checking NT ID based tokens consumption for Enterprise subsrciption.
+From: Saket Sandeep Shrivastava (MS/EKI3-XC)
+Folder: \\Andreas.Bossert2@de.bosch.com\Gelöschte Elemente
+Link: https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779698115273?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779698115273&parentMessageId=1779698115273
+Body:
+New Teams message in General
+
+Subject: Checking NT ID based tokens consumption for Enterprise subsrciption.
+From: Saket Sandeep Shrivastava (MS/EKI3-XC)
+
+Hello Everyone,
+
+  
+
+Is there any way or any dashboard where we can see NTID or user based tokens consumption for the Enterprise subscription for a department. 
+
+Request support for this. 
+
+
+
+View message in Teams <https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779698115273?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779698115273&parentMessageId=1779698115273>  
+
+===END===
+===ITEM===
+Received: 2026-05-25 17:40:21
+Topic: 🧠 Weekly AI Ecosystem Brief (2026-05-18 → 2026-05-24)
+From: Smponias Alexandros (BD/SWD-ARC6)
+Folder: \\Andreas.Bossert2@de.bosch.com\Gelöschte Elemente
+Link: https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779723501084?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779723501084&parentMessageId=1779723501084
+Body:
+New Teams message in General
+
+Subject: 🧠 Weekly AI Ecosystem Brief (2026-05-18 → 2026-05-24)
+From: Smponias Alexandros (BD/SWD-ARC6)
+
+
+
+
+📰 Subscribe to my weekly GenAI Newsletter! <https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=GR7lCsgHS067bWSO5YQQ9HTvbq4WCopAiUo-IVjN4aBUM1pGTzZMWDZNQTI5RkRIMkdUSVNXNjA0Ry4u>  
+
+
+ 
+
+
+TL;DR (for non-tech)
+
+
+*	Google just unveiled a new generation of AI that can create nearly anything — text, images, audio, and video — through a single conversational system with Gemini Omni.
+*	Enterprise AI agents are rapidly moving into production with hybrid deployment, secure sandboxes, and real operational ownership.
+*	AI workflows are shifting from chatbots toward autonomous systems that execute tasks, generate media, and collaborate across devices.
+
+🔒 Bosch Internal AI News 
+
+*	AI Barcamp 10 is happening tomorrow! [🎟️ Register for free <https://events.teams.microsoft.com/event/530e44f5-95f4-4d80-959e-ff06d36d5d51@0ae51e19-07c8-4e4b-bb6d-648ee58410f4> ]
+*	Gemini 3.1 Pro available on Gemini Enterprise!  [Read more <https://teams.microsoft.com/l/message/19:hLvpMgon5cd8rbfivNdLqAMukFJXjG5Smjd3MvANCKE1@thread.tacv2/1779287022075?tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&groupId=2eaa5459-d7ee-41b6-8321-7b38c8b6a7c0&parentMessageId=1779287022075&teamName=Agentic4Bosch&channelName=General%20Topics&createdTime=1779287022075> ]
+*	Gemini 3.5 Flash available on Gemini Enterprise! [Read more <https://teams.microsoft.com/l/message/19:hLvpMgon5cd8rbfivNdLqAMukFJXjG5Smjd3MvANCKE1@thread.tacv2/1779287022075?tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&groupId=2eaa5459-d7ee-41b6-8321-7b38c8b6a7c0&parentMessageId=1779287022075&teamName=Agentic4Bosch&channelName=General%20Topics&createdTime=1779287022075> ]
+
+
+🚀 Major Releases & Product Announcements
+
+
+*	Google I/O 2026: All announcements (Google Blog <https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/?utm_source=chatgpt.com> )
+	Tech: Google consolidated its I/O 2026 launches across Gemini, Search, Android XR, agentic systems, media generation, and developer tooling. The event positioned Gemini and Antigravity as foundational layers across Google’s ecosystem.
+	For everyone: Google is pushing AI into nearly every major product at once.
+	Why it matters: This signals a platform-wide AI strategy rather than isolated feature launches.
+*	Gemini 3.5: frontier intelligence with action (Google Blog <https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/?utm_source=chatgpt.com> )
+	Tech: Google launched Gemini 3.5 Flash as the first production-ready model in the 3.5 series, aimed at long-running agentic and coding workloads.
+	For everyone: Google’s new Gemini model is designed to be faster while handling more complex tasks.
+	Why it matters: Fast general-purpose models are becoming strong enough for real agent and developer work.
+*	Introducing Gemini Omni (Google Blog <https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/?utm_source=chatgpt.com> )
+	Tech: Gemini Omni combines image, audio, video, and text inputs, with conversational editing and advanced video generation.
+	For everyone: Google wants creative work to happen through natural conversation.
+	Why it matters: Generative video workflows are moving toward mainstream usability.
+*	The Gemini app becomes more agentic, delivering proactive, 24/7 help (Google Blog <https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/> )
+	Tech: Google introduced Daily Brief, Gemini Spark, Workspace integrations, MCP support, and background task execution.
+	For everyone: Gemini is evolving from chatbot into proactive assistant.
+	Why it matters: Personal cloud agents are becoming a mainstream product category.
+*	A new era for AI Search (Google Blog <https://blog.google/products-and-platforms/products/search/search-io-2026/> )
+	Tech: Google is adding agentic workflows and AI-native interaction patterns directly into Search.
+	For everyone: Search may increasingly help complete tasks instead of just returning links.
+	Why it matters: AI agents could reach billions of users through Search alone.
+*	Google Shopping universal cart & AI shopping flows (Google Blog <https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/?utm_source=chatgpt.com> )
+	Tech: Google expanded AI shopping experiences with persistent carts, agentic purchasing flows, and deeper merchant integrations.
+	For everyone: Google wants shopping journeys to continue seamlessly across devices and sessions.
+	Why it matters: AI commerce assistants are becoming part of mainstream consumer infrastructure.
+*	Android XR at I/O 2026 (Google Blog <https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/?utm_source=chatgpt.com> )
+	Tech: Google showcased Android XR updates tightly integrated with Gemini and multimodal interfaces for headsets and smart glasses.
+	For everyone: AI-powered glasses and XR devices are becoming more conversational and context-aware.
+	Why it matters: Gemini is increasingly positioned as the interface layer for future computing devices.
+*	Advancing content provenance for a safer, more transparent AI ecosystem (OpenAI Blog <https://openai.com/index/advancing-content-provenance/> )
+	Tech: OpenAI combined C2PA credentials, SynthID support, and verification tooling for AI-generated media.
+	For everyone: OpenAI wants it to become easier to verify where AI-generated media came from.
+	Why it matters: Provenance systems are becoming foundational trust infrastructure for AI media.
+*	Identifying AI-generated media online (Google Blog <https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/?utm_source=chatgpt.com> )
+	Tech: Google expanded SynthID-based media identification and transparency tooling across generated content.
+	For everyone: Google is improving ways to detect and label AI-generated media.
+	Why it matters: Transparency and authenticity are becoming critical ecosystem priorities.
+*	Meet Stable Audio 3 (Stability AI <https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models?utm_source=chatgpt.com> )
+	Tech: Stability AI introduced Stable Audio 3, an open-weight audio generation family focused on artistic experimentation and controllability.
+	For everyone: Creators get more flexible tools for generating music and sound with AI.
+	Why it matters: Open-weight media generation continues expanding beyond images into audio ecosystems.
+
+
+🔧 Tools, Local Models & Developer Workflows
+
+
+*	OpenAI and Dell Technologies partner to bring Codex to hybrid and on-premises enterprise environments(OpenAI Blog <https://openai.com/index/dell-codex-enterprise-partnership/> )
+	Tech: OpenAI and Dell are bringing Codex closer to enterprise systems through hybrid and on-prem deployments.
+	For everyone: Companies can use coding agents while keeping sensitive systems under tighter control.
+	Why it matters: Hybrid deployment is often required for enterprise-scale adoption.
+*	Remote control for Copilot CLI sessions now generally available (GitHub Blog <https://github.blog/changelog/2026-05-18-remote-control-for-copilot-cli-sessions-now-generally-available-on-mobile-web-and-vs-code/> )
+	Tech: GitHub expanded Copilot CLI remote control across mobile, browser, VS Code, and JetBrains.
+	For everyone: Developers can monitor AI coding tasks remotely.
+	Why it matters: Long-running coding agents are becoming multi-device workflows.
+*	Gemini 3.5 Flash is generally available for GitHub Copilot (GitHub Blog <https://github.blog/changelog/2026-05-19-gemini-3-5-flash-is-generally-available-for-github-copilot/> )
+	Tech: GitHub added Gemini 3.5 Flash across Copilot paid tiers.
+	For everyone: Developers now have another fast AI coding model option inside Copilot.
+	Why it matters: Model competition is accelerating inside developer workflows.
+*	Introducing Google Antigravity 2.0 (Google Antigravity <https://antigravity.google/blog/introducing-google-antigravity-2-0?utm_source=chatgpt.com> )
+	Tech: Google expanded Antigravity as an agent-first runtime and orchestration layer for long-running AI workflows.
+	For everyone: Google is building infrastructure for AI systems that can work autonomously over time.
+	Why it matters: Agent orchestration platforms are becoming core ecosystem infrastructure.
+*	Stitch updates (Google Blog <https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-updates/?utm_source=chatgpt.com> )
+	Tech: Google updated Stitch with improved collaborative AI design workflows and faster generation capabilities.
+	For everyone: Teams can iterate on design concepts more interactively with AI assistance.
+	Why it matters: AI-native product design tooling is becoming faster and more collaborative.
+*	Composer 2.5 (Cursor Blog <https://cursor.com/de/blog/composer-2-5?utm_source=chatgpt.com> )
+	Tech: Cursor introduced Composer 2.5 with stronger codebase reasoning, editing flows, and agentic coding behavior.
+	For everyone: Cursor continues pushing AI coding from autocomplete toward full workflow assistance.
+	Why it matters: Independent AI-native IDEs are rapidly challenging traditional developer tooling.
+
+
+💻 GitHub Copilot & Dev AI
+
+
+*	Introducing Managed Agents in the Gemini API (Google Blog <https://blog.google/innovation-and-ai/technology/developers-tools/managed-agents-gemini-api/> )
+	Tech: Google introduced Managed Agents with cloud sandboxes, custom skills, and AGENTS.md / SKILL.md support.
+	For everyone: Developers can build AI agents without managing all runtime infrastructure themselves.
+	Why it matters: Managed agent platforms are becoming easier to operationalize.
+*	Transitioning Gemini CLI to Antigravity CLI (Google Developers Blog <https://developers.googleblog.com/en/an-important-update-transitioning-gemini-cli-to-antigravity-cli/> )
+	Tech: Google is consolidating terminal AI tooling under Antigravity CLI.
+	For everyone: Google’s coding assistant ecosystem is becoming more unified.
+	Why it matters: AI developer tooling is evolving into full agent platforms.
+*	New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels (Anthropic Blog <https://claude.com/blog/claude-managed-agents-updates> )
+	Tech: Anthropic added secure enterprise connectivity and self-hosted execution options for Claude agents.
+	For everyone: Companies can connect AI agents to internal systems more safely.
+	Why it matters: Enterprise security remains central to real-world AI deployment.
+*	GitHub Copilot for Eclipse is open source (GitHub Blog <https://github.blog/changelog/2026-05-21-github-copilot-for-eclipse-is-open-source/> )
+	Tech: GitHub open-sourced the Copilot Eclipse plugin under MIT license.
+	For everyone: Developers can now inspect and extend the Eclipse Copilot integration.
+	Why it matters: Open ecosystems increase trust in enterprise AI tooling.
+
+
+📚 Prompt Engineering & Community Trends
+
+
+*	Agentic-Agile: Why Agent Development Needs Agile (Not Just Prompts) (Microsoft Blog <https://devblogs.microsoft.com/blog/agentic-agile-why-agent-development-needs-agile-not-just-prompts> )
+	Tech: Microsoft argues that successful agent systems depend more on process, governance, and iterative engineering than prompt tricks alone.
+	For everyone: Good AI agents require strong workflows and team practices.
+	Why it matters: The industry conversation is shifting from prompting toward systems engineering.
+
+
+✨ Impactful GenAI Use Cases (by domain)
+
+
+IT & Engineering
+
+
+*	How Virgin Atlantic ships faster with Codex (OpenAI Blog <https://openai.com/index/virgin-atlantic/> )
+	Tech: Virgin Atlantic used Codex to accelerate mobile app refactoring and testing.
+	For everyone: AI helped modernize complex airline software faster.
+	Why it matters: AI coding agents are entering mission-critical enterprise delivery.
+*	How Ramp engineers accelerate code review with Codex (OpenAI Blog <https://openai.com/index/ramp/> )
+	Tech: Ramp uses Codex with GPT-5.5 for PR review and internal engineering automation.
+	For everyone: AI is speeding up engineering review cycles.
+	Why it matters: AI coding tools increasingly improve operational workflows, not just code generation.
+
+
+Finance & Legal
+
+
+*	KPMG integrates Claude across its core business and workforce of more than 276,000 (Anthropic Blog <https://www.anthropic.com/news/anthropic-kpmg> )
+	Tech: KPMG is embedding Claude into tax, legal, PE, and cybersecurity workflows.
+	For everyone: AI is moving into highly regulated enterprise knowledge work.
+	Why it matters: Large-scale enterprise rollouts validate AI maturity for professional services.
+*	Personal finance in ChatGPT (OpenAI Blog <https://openai.com/index/personal-finance-chatgpt/?utm_source=chatgpt.com> )
+	Tech: OpenAI introduced improved personal finance workflows and financial assistance capabilities in ChatGPT.
+	For everyone: ChatGPT is becoming more useful for budgeting and financial planning support.
+	Why it matters: Consumer financial assistance is becoming a key AI adoption category.
+
+
+Education & HR
+
+
+*	The next phase of OpenAI’s Education for Countries (OpenAI Blog <https://openai.com/index/the-next-phase-of-education-for-countries/> )
+	Tech: OpenAI expanded its education partnership program with governments, including Singapore.
+	For everyone: Governments are exploring structured AI deployment in education systems.
+	Why it matters: Education remains one of the most important long-term AI adoption areas.
+
+
+Other
+
+
+*	AdventHealth advances whole-person care with OpenAI (OpenAI Blog <https://openai.com/index/adventhealth/> )
+	Tech: AdventHealth uses ChatGPT for Healthcare to automate documentation and clinical workflows.
+	For everyone: AI is reducing administrative burden in healthcare environments.
+	Why it matters: Real productivity gains in healthcare carry especially strong signal value.
+*	Introducing OpenAI for Singapore (OpenAI Blog <https://openai.com/index/introducing-openai-for-singapore/> )
+	Tech: OpenAI launched a major AI deployment and infrastructure initiative with Singapore.
+	For everyone: National-level AI partnerships are accelerating globally.
+	Why it matters: Competition in AI increasingly includes ecosystem and government alignment.
+*	Alexa podcasts with AI-generated audio episodes (Amazon <https://www.aboutamazon.com/news/devices/alexa-podcasts-ai-generated-audio-episodes?utm_source=chatgpt.com> )
+	Tech: Amazon introduced AI-generated podcast episode capabilities connected to Alexa experiences.
+	For everyone: AI-generated spoken content is becoming part of mainstream consumer media.
+	Why it matters: Audio generation is becoming another important front in consumer AI experiences.
+*	Gemini for Science (Google Blog <https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/?utm_source=chatgpt.com> )
+	Tech: Google expanded Gemini-based scientific research tooling and workflows for biology, chemistry, and simulation tasks.
+	For everyone: AI is increasingly being positioned as a research assistant for science.
+	Why it matters: Scientific acceleration remains one of AI’s highest-impact long-term opportunities.
+*	Project Genie expands (Google DeepMind <https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/?utm_source=chatgpt.com> )
+	Tech: Google DeepMind expanded Project Genie’s world-modeling and environment-generation capabilities using multimodal data.
+	For everyone: AI systems are getting better at understanding and generating interactive worlds.
+	Why it matters: World models may become foundational for robotics, gaming, and autonomous systems.
+
+  
+
+
+
+View message in Teams <https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779723501084?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779723501084&parentMessageId=1779723501084>  
+
+===END===
+===ITEM===
+Received: 2026-05-26 13:19:11
+Topic: LLM Model not available error in VS Code
+From: Saket Sandeep Shrivastava (MS/EKI3-XC)
+Folder: \\Andreas.Bossert2@de.bosch.com\Gelöschte Elemente
+Link: https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779794306844?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779794306844&parentMessageId=1779794306844
+Body:
+New Teams message in General
+
+Subject: LLM Model not available error in VS Code
+From: Saket Sandeep Shrivastava (MS/EKI3-XC)
+
+Hello Everyone,
+
+I have been using the Copilot CLI extension in VS Code for quite sometime. 
+
+today my VS code crashed and when i restarted it, for the same chat history, it is showing below 
+
+(No image preview)  
+
+can someone please help me fixing this? 
+
+
+
+View message in Teams <https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779794306844?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779794306844&parentMessageId=1779794306844>  
+
+===END===
+===ITEM===
+Received: 2026-05-26 13:40:12
+Topic: Anyone use n8n in combination with DevMate?
+From: Krishnan Karthik (VM/EMT4)
+Folder: \\Andreas.Bossert2@de.bosch.com\Gelöschte Elemente
+Link: https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779795462199?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779795462199&parentMessageId=1779795462199
+Body:
+New Teams message in General
+
+Subject: Anyone use n8n in combination with DevMate?
+From: Krishnan Karthik (VM/EMT4)
+
+When I try to access DevMate via n8n, I get proxy issues. I still get same (below) when i give proxy in "HTTP Request" under Options
+
+  
+
+
+Problem in node ‘HTTP Request‘
+
+
+The connection timed out, consider setting the 'Retry on Fail' option in the node settings
+
+
+
+View message in Teams <https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779795462199?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779795462199&parentMessageId=1779795462199>  
+
+===END===
+===ITEM===
+Received: 2026-05-26 14:04:16
+Topic: 
+From: Creutz Stephan (XC-AS/EVT1)
+Folder: \\Andreas.Bossert2@de.bosch.com\Gelöschte Elemente
+Link: https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779796973430?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779796973430&parentMessageId=1779796973430
+Body:
+New Teams message in General
+
+From: Creutz Stephan (XC-AS/EVT1)
+
+The pope made a "short" announcement: https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html <https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html>  (haven't read it myself yet, but might be interesting nonetheless).
+
+
+View message in Teams <https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779796973430?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779796973430&parentMessageId=1779796973430> 
+
+===END===
+===ITEM===
+Received: 2026-05-27 09:49:22
+Topic: AI-enabled Problem Solving "ecosystem"
+From: Putignano Giuseppe (PS-DC/ENP1-CV)
+Folder: \\Andreas.Bossert2@de.bosch.com\Gelöschte Elemente
+Link: https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779868089581?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779868089581&parentMessageId=1779868089581
+Body:
+New Teams message in General
+
+Subject: AI-enabled Problem Solving "ecosystem"
+From: Putignano Giuseppe (PS-DC/ENP1-CV)
+
+
+
+Contex
+
+*	Problem solving activities in the BU (we are not talking about 8D in SAP...)
+
+Problem
+
+*	non integrated AI tools
+*	high maintenance effort (documentation)
+
+Idea
+
+creation of a single Problem Solving platform (in the BU) with
+
+*	database of the Problem Solving cases
+*	agent(s) supporting the problem solving activities 
+*	agent supporting the creation of documentation 
+
+My need
+
+*	expert(s) to evaluate the feasibility of the idea and eventually to implement it
+
+If you are the expert I am looking for, contact me. 🎯💬
+
+ 
+
+
+
+View message in Teams <https://teams.microsoft.com/l/message/19%3A06WvCzntY4C-UpKWMfZXp4DwNjPAOTXHM5gtObYu5oY1%40thread.tacv2/1779868089581?groupId=260592f8-17db-43d7-8fd4-55ba74d5d2ae&tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&createdTime=1779868089581&parentMessageId=1779868089581>  
+
+===END===
