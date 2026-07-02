@@ -43,6 +43,37 @@ def _get_namespace() -> Any:
     return outlook.GetNamespace("MAPI")
 
 
+def _safe_get_store_property(store: Any, prop_tag: str) -> Any:
+    """Read a MAPI property from a store and return None if unavailable."""
+    try:
+        return store.PropertyAccessor.GetProperty(prop_tag)
+    except Exception:
+        return None
+
+
+def _safe_set_store_property(store: Any, prop_tag: str, value: Any) -> bool:
+    """Set a MAPI property on a store. Returns True when successful."""
+    try:
+        store.PropertyAccessor.SetProperty(prop_tag, value)
+        return True
+    except Exception:
+        return False
+
+
+def _decode_store_text(value: Any) -> str:
+    """Decode text values that may come back as bytes or strings from COM."""
+    if value is None:
+        return ""
+    if isinstance(value, bytes):
+        for encoding in ("utf-16-le", "utf-8", "latin-1"):
+            try:
+                return value.decode(encoding).rstrip("\x00")
+            except Exception:
+                continue
+        return ""
+    return str(value)
+
+
 def _folder_by_path(namespace: Any, path: str) -> Any:
     """
     Resolve a slash-separated folder path such as 'Inbox' or 'Inbox/Subfolder'.
@@ -553,6 +584,51 @@ async def list_tools() -> list[types.Tool]:
                 },
             },
         ),
+        types.Tool(
+            name="get_automatic_replies",
+            description=(
+                "Get automatic replies (Out of Office) status and configured "
+                "internal/external reply text for a mailbox store."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "store_index": {
+                        "type": "integer",
+                        "description": "Mailbox store index (1-based). Default: 1.",
+                    }
+                },
+            },
+        ),
+        types.Tool(
+            name="set_automatic_replies",
+            description=(
+                "Set automatic replies (Out of Office) status and optionally "
+                "internal/external reply text for a mailbox store."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "enabled": {
+                        "type": "boolean",
+                        "description": "Enable or disable automatic replies.",
+                    },
+                    "internal_text": {
+                        "type": "string",
+                        "description": "Optional internal auto-reply text.",
+                    },
+                    "external_text": {
+                        "type": "string",
+                        "description": "Optional external auto-reply text.",
+                    },
+                    "store_index": {
+                        "type": "integer",
+                        "description": "Mailbox store index (1-based). Default: 1.",
+                    },
+                },
+                "required": ["enabled"],
+            },
+        ),
     ]
 
 
@@ -602,6 +678,10 @@ def _dispatch(name: str, args: dict) -> str:
             return _tool_create_contact(args)
         elif name == "get_tasks":
             return _tool_get_tasks(args)
+        elif name == "get_automatic_replies":
+            return _tool_get_automatic_replies(args)
+        elif name == "set_automatic_replies":
+            return _tool_set_automatic_replies(args)
         else:
             return f"Unknown tool: {name}"
     finally:
@@ -989,6 +1069,101 @@ def _tool_get_tasks(args: dict) -> str:
             continue
 
     return "\n\n".join(results) if results else "No tasks found."
+
+
+def _tool_get_automatic_replies(args: dict) -> str:
+    store_index = int(args.get("store_index", 1))
+    if store_index < 1:
+        raise ValueError("store_index must be >= 1")
+
+    ns = _get_namespace()
+    if store_index > ns.Stores.Count:
+        raise ValueError(f"store_index out of range. Found {ns.Stores.Count} store(s).")
+
+    store = ns.Stores.Item(store_index)
+
+    # MAPI proptags for Out of Office in mailbox store.
+    enabled_raw = _safe_get_store_property(store, "http://schemas.microsoft.com/mapi/proptag/0x661D000B")
+    internal_raw = _safe_get_store_property(store, "http://schemas.microsoft.com/mapi/proptag/0x661E001F")
+    external_raw = _safe_get_store_property(store, "http://schemas.microsoft.com/mapi/proptag/0x661F001F")
+
+    # Fallback: some profiles expose text as binary data.
+    if internal_raw is None:
+        internal_raw = _safe_get_store_property(store, "http://schemas.microsoft.com/mapi/proptag/0x661E0102")
+    if external_raw is None:
+        external_raw = _safe_get_store_property(store, "http://schemas.microsoft.com/mapi/proptag/0x661F0102")
+
+    enabled = bool(enabled_raw) if enabled_raw is not None else False
+    internal_text = _decode_store_text(internal_raw)
+    external_text = _decode_store_text(external_raw)
+
+    if not internal_text:
+        internal_text = "(not set)"
+    if not external_text:
+        external_text = "(not set)"
+
+    lines = [
+        f"Store               : {store.DisplayName}",
+        f"Store index         : {store_index}",
+        f"Automatic replies   : {enabled}",
+        "",
+        "Internal reply text:",
+        internal_text,
+        "",
+        "External reply text:",
+        external_text,
+    ]
+    return "\n".join(lines)
+
+
+def _tool_set_automatic_replies(args: dict) -> str:
+    store_index = int(args.get("store_index", 1))
+    if store_index < 1:
+        raise ValueError("store_index must be >= 1")
+
+    if "enabled" not in args:
+        raise ValueError("enabled is required")
+
+    ns = _get_namespace()
+    if store_index > ns.Stores.Count:
+        raise ValueError(f"store_index out of range. Found {ns.Stores.Count} store(s).")
+
+    store = ns.Stores.Item(store_index)
+    enabled = bool(args.get("enabled"))
+    internal_text = args.get("internal_text")
+    external_text = args.get("external_text")
+
+    ok_enabled = _safe_set_store_property(
+        store,
+        "http://schemas.microsoft.com/mapi/proptag/0x661D000B",
+        enabled,
+    )
+
+    ok_internal = True
+    if internal_text is not None:
+        ok_internal = _safe_set_store_property(
+            store,
+            "http://schemas.microsoft.com/mapi/proptag/0x661E001F",
+            str(internal_text),
+        )
+
+    ok_external = True
+    if external_text is not None:
+        ok_external = _safe_set_store_property(
+            store,
+            "http://schemas.microsoft.com/mapi/proptag/0x661F001F",
+            str(external_text),
+        )
+
+    if not ok_enabled:
+        raise RuntimeError("Could not set automatic replies state for this store.")
+    if internal_text is not None and not ok_internal:
+        raise RuntimeError("Automatic replies state changed, but internal_text could not be set.")
+    if external_text is not None and not ok_external:
+        raise RuntimeError("Automatic replies state changed, but external_text could not be set.")
+
+    # Return the current configured values as confirmation.
+    return _tool_get_automatic_replies({"store_index": store_index})
 
 
 # ---------------------------------------------------------------------------

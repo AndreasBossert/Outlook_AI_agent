@@ -5,7 +5,7 @@ Connect AI assistants (GitHub Copilot, Claude, etc.) to Microsoft Outlook via th
 ## Features
 
 | Tool | Description |
-|------|-------------|
+| ------ | ------------- |
 | `list_folders` | List all mail folders (optionally recursive) |
 | `get_emails` | Retrieve emails from any folder (newest first, with unread filter) |
 | `get_email_details` | Full email details including body and attachment list |
@@ -21,6 +21,8 @@ Connect AI assistants (GitHub Copilot, Claude, etc.) to Microsoft Outlook via th
 | `get_contacts` | List / search contacts |
 | `create_contact` | Add a new contact |
 | `get_tasks` | List tasks (open or including completed) |
+| `get_automatic_replies` | Show automatic replies status and internal/external text |
+| `set_automatic_replies` | Enable/disable automatic replies and optionally set texts |
 
 ## Requirements
 
@@ -67,4 +69,5 @@ Once connected, you can ask your AI assistant things like:
 - *"Move all newsletter emails to the 'Newsletter' subfolder."*
 - *"What meetings do I have this week?"*
 - *"Create a reminder appointment for tomorrow at 9:00 AM."*
-
+- *"Are my automatic replies enabled, and what text is configured?"*
+- *"Enable automatic replies and set internal/external text."*
