@@ -60,6 +60,27 @@ def _safe_set_store_property(store: Any, prop_tag: str, value: Any) -> bool:
         return False
 
 
+def _safe_set_store_text_property(
+    store: Any,
+    text_prop_tag: str,
+    binary_prop_tag: str,
+    value: str,
+) -> bool:
+    """Set store text robustly across profiles exposing string or binary proptags."""
+    text_value = str(value)
+
+    if _safe_set_store_property(store, text_prop_tag, text_value):
+        return True
+
+    # Some profiles only accept the binary text property (PT_BINARY) for OOF text.
+    try:
+        encoded = text_value.encode("utf-16-le")
+    except Exception:
+        encoded = text_value.encode("utf-8", errors="ignore")
+
+    return _safe_set_store_property(store, binary_prop_tag, encoded)
+
+
 def _decode_store_text(value: Any) -> str:
     """Decode text values that may come back as bytes or strings from COM."""
     if value is None:
@@ -1141,17 +1162,19 @@ def _tool_set_automatic_replies(args: dict) -> str:
 
     ok_internal = True
     if internal_text is not None:
-        ok_internal = _safe_set_store_property(
+        ok_internal = _safe_set_store_text_property(
             store,
             "http://schemas.microsoft.com/mapi/proptag/0x661E001F",
+            "http://schemas.microsoft.com/mapi/proptag/0x661E0102",
             str(internal_text),
         )
 
     ok_external = True
     if external_text is not None:
-        ok_external = _safe_set_store_property(
+        ok_external = _safe_set_store_text_property(
             store,
             "http://schemas.microsoft.com/mapi/proptag/0x661F001F",
+            "http://schemas.microsoft.com/mapi/proptag/0x661F0102",
             str(external_text),
         )
 

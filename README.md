@@ -21,8 +21,8 @@ Connect AI assistants (GitHub Copilot, Claude, etc.) to Microsoft Outlook via th
 | `get_contacts` | List / search contacts |
 | `create_contact` | Add a new contact |
 | `get_tasks` | List tasks (open or including completed) |
-| `get_automatic_replies` | Show automatic replies status and internal/external text |
-| `set_automatic_replies` | Enable/disable automatic replies and optionally set texts |
+| `get_automatic_replies` | Not working: Show automatic replies status and internal/external text |
+| `set_automatic_replies` | Not working: Enable/disable automatic replies and optionally set texts |
 
 ## Requirements
 

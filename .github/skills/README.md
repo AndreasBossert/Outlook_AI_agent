@@ -7,6 +7,8 @@ Three independent skills for managing Outlook meetings have been refactored to e
 1. **SKILL.md** - Comprehensive documentation with references to scripts
 2. **scripts/** - General-purpose, reusable Python modules
 
+Additionally, one mailbox utility skill is available for reading Automatic Replies (Out of Office) text and status.
+
 ## Structure
 
 ### outlook-read-meetings
@@ -44,6 +46,21 @@ Three independent skills for managing Outlook meetings have been refactored to e
     - `reschedule_meeting()`, `move_meeting_by_offset()`
     - `add_attendee()`, `remove_attendee()`, `update_attendee_role()`
     - `validate_meeting_update()` - Update validation
+
+### outlook-read-automatic-replies
+- **SKILL.md** - Guide for reading OOF status/text for a selected mailbox
+- Supports mailbox selection for:
+  - `andreas.bossert@itk-engineering.de`
+  - `andreas.bossert2@de.bosch.com`
+- Uses `get_automatic_replies` with mailbox `store_index`
+
+### outlook-set-automatic-replies
+- **SKILL.md** - Guide for setting OOF status/text for a selected mailbox
+- Supports mailbox selection for:
+  - `andreas.bossert@itk-engineering.de`
+  - `andreas.bossert2@de.bosch.com`
+- Includes bilingual internal/external template text example
+- Uses `set_automatic_replies` and verification via `get_automatic_replies`
 
 ## Key Design Principles
 
